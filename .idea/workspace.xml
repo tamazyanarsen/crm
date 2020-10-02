@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="43135175-9d50-4120-98ec-e7872b8c6362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/angular-client/src/app/pages/users/users.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-client/src/app/pages/users/users.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular-client/src/app/pages/users/users.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +43,38 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="E:\projects\my-projects\crm\angular-client\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (angular-client)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/angular-client/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular-client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -43,19 +85,62 @@
       <option name="presentableId" value="Default" />
       <updated>1601379266111</updated>
       <workItem from="1601379267179" duration="905000" />
+      <workItem from="1601636184451" duration="800000" />
+      <workItem from="1601637188335" duration="1326000" />
+      <workItem from="1601638661113" duration="762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom" timestamp="1601639430069">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
+    <state width="2005" height="204" key="GridCell.Tab.0.center" timestamp="1601639430069">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.center/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
+    <state width="2005" height="204" key="GridCell.Tab.0.left" timestamp="1601639430068">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.left/0.0.2048.824@0.0.2048.824" timestamp="1601639430068" />
+    <state width="2005" height="204" key="GridCell.Tab.0.right" timestamp="1601639430069">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.right/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
+    <state x="626" y="64" key="SettingsEditor" timestamp="1601638766479">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state x="626" y="64" key="SettingsEditor/0.0.2048.824@0.0.2048.824" timestamp="1601638766479" />
     <state x="888" y="298" width="348" height="298" key="org.angular.cli.generate" timestamp="1601379493627">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="888" y="298" width="348" height="298" key="org.angular.cli.generate/0.0.2048.824@0.0.2048.824" timestamp="1601379493627" />
+    <state x="722" y="164" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1601638038573">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state x="722" y="164" key="vcs.ApplyPatchDifferentiatedDialog/0.0.2048.824@0.0.2048.824" timestamp="1601638038573" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
