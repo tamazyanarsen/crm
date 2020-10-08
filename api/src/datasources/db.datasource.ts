@@ -4,9 +4,9 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'postgresql',
-  url: 'postgres://postgres:pass@localhost:33117/crm_test',
-  host: 'localhost:33117',
-  port: 33117,
+  url: 'postgres://postgres:pass@localhost/crm_test',
+  host: 'localhost',
+  port: 52469,
   user: 'postgres',
   password: 'pass',
   database: 'crm_test'

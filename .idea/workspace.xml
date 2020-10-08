@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43135175-9d50-4120-98ec-e7872b8c6362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/core/BaseService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/core/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/core/error-handling.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/core/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/Form.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/Project.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/Section.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/Task.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/services/request.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/details/details.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/details/details.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/details/details.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/input/input.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/input/input.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/input/input.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/modal/modal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/modal/modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/modal/modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/pipes/column-name.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/table/table.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/table/table.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-client/src/app/shared/table/table.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-client/src/app/pages/users/users.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-client/src/app/pages/users/users.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-client/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-client/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/datasources/db.datasource.ts" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/datasources/db.datasource.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +74,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-client/src/app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="E:\projects\my-projects\crm\angular-client\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="E:\projects\my-projects\crm\api\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\my-projects\crm\angular-client\src\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
     <configuration name="E2E Tests (angular-client)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/angular-client/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
@@ -75,6 +110,21 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +138,9 @@
       <workItem from="1601636184451" duration="800000" />
       <workItem from="1601637188335" duration="1326000" />
       <workItem from="1601638661113" duration="762000" />
+      <workItem from="1601703229772" duration="473000" />
+      <workItem from="1601910462622" duration="1305000" />
+      <workItem from="1602131533412" duration="350000" />
     </task>
     <servers />
   </component>
@@ -110,30 +163,50 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="204" key="GridCell.Tab.0.bottom" timestamp="1601639430069">
+    <state x="705" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602131554721">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.0.bottom/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
-    <state width="2005" height="204" key="GridCell.Tab.0.center" timestamp="1601639430069">
+    <state x="705" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.824@0.0.2048.824" timestamp="1602131554721" />
+    <state x="755" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602131689333">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.0.center/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
-    <state width="2005" height="204" key="GridCell.Tab.0.left" timestamp="1601639430068">
+    <state x="755" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.824@0.0.2048.824" timestamp="1602131689333" />
+    <state x="805" y="167" key="FileChooserDialogImpl" timestamp="1601703496023">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.0.left/0.0.2048.824@0.0.2048.824" timestamp="1601639430068" />
-    <state width="2005" height="204" key="GridCell.Tab.0.right" timestamp="1601639430069">
+    <state x="805" y="167" key="FileChooserDialogImpl/0.0.2048.824@0.0.2048.824" timestamp="1601703496023" />
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom" timestamp="1601911780934">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state width="2005" height="204" key="GridCell.Tab.0.right/0.0.2048.824@0.0.2048.824" timestamp="1601639430069" />
-    <state x="626" y="64" key="SettingsEditor" timestamp="1601638766479">
+    <state width="2005" height="204" key="GridCell.Tab.0.bottom/0.0.2048.824@0.0.2048.824" timestamp="1601911780934" />
+    <state width="2005" height="204" key="GridCell.Tab.0.center" timestamp="1601911780933">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
-    <state x="626" y="64" key="SettingsEditor/0.0.2048.824@0.0.2048.824" timestamp="1601638766479" />
+    <state width="2005" height="204" key="GridCell.Tab.0.center/0.0.2048.824@0.0.2048.824" timestamp="1601911780933" />
+    <state width="2005" height="204" key="GridCell.Tab.0.left" timestamp="1601911780932">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.left/0.0.2048.824@0.0.2048.824" timestamp="1601911780932" />
+    <state width="2005" height="204" key="GridCell.Tab.0.right" timestamp="1601911780933">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state width="2005" height="204" key="GridCell.Tab.0.right/0.0.2048.824@0.0.2048.824" timestamp="1601911780933" />
+    <state x="845" y="54" key="SettingsEditor" timestamp="1601911607788">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state x="845" y="54" key="SettingsEditor/0.0.2048.824@0.0.2048.824" timestamp="1601911607788" />
+    <state x="465" y="0" key="new project wizard" timestamp="1601911617001">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state x="465" y="0" key="new project wizard/0.0.2048.824@0.0.2048.824" timestamp="1601911617001" />
     <state x="888" y="298" width="348" height="298" key="org.angular.cli.generate" timestamp="1601379493627">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
     <state x="888" y="298" width="348" height="298" key="org.angular.cli.generate/0.0.2048.824@0.0.2048.824" timestamp="1601379493627" />
+    <state x="687" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602131569920">
+      <screen x="0" y="0" width="2048" height="824" />
+    </state>
+    <state x="687" y="145" width="672" height="678" key="search.everywhere.popup/0.0.2048.824@0.0.2048.824" timestamp="1602131569920" />
     <state x="722" y="164" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1601638038573">
       <screen x="0" y="0" width="2048" height="824" />
     </state>
